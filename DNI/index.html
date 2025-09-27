@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de DNI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de DNI</h1>
+        <form id="dniForm">
+            <label for="dniNumber">Número de DNI:</label>
+            <input type="number" id="dniNumber" name="dniNumber" placeholder="Ej: 12345678" required>
+
+            <label for="dniLetter">Letra del DNI:</label>
+            <input type="text" id="dniLetter" name="dniLetter" maxlength="1" placeholder="Ej: A" required>
+
+            <button type="submit">Validar DNI</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
