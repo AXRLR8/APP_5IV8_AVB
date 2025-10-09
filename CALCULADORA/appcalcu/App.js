@@ -23,16 +23,12 @@ export default function App() {
 
       <TextInput
         style={styles.input}
-        placeholder="Ingresa el primer valor"
-        keyboardType="numeric"
         value={a}
         onChangeText={setA}
       />
 
       <TextInput
         style={styles.input}
-        placeholder="Ingresa el segundo valor"  
-        keyboardType="numeric"
         value={b}
         onChangeText={setB}
       />
